@@ -1,0 +1,125 @@
+body {
+    background: url(../images/triangular.png);
+}
+
+.allcontent {
+    position: relative;
+
+    width: 1135px;
+    height: 927px;
+
+    margin: 0px auto;
+
+    background-image: url(../images/laptop_PNG5888.png);
+}
+
+.main {
+    position: absolute;
+    top: 48px;
+    left: 87px;
+
+    width: 960px;
+    height: 601px;
+
+    background: #a39e9e;
+}
+
+.under_construction {
+    width: 650px;
+
+    margin: 25px auto 0px auto;
+
+    border-radius: 7px;
+    border-style: groove;
+    border-color: #4e4b4b;
+
+    background: #4e4b4b;
+}
+
+.under_construction_text {
+    font: 700 45px "Times New Roman", serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.counter {
+    width: 650px;
+    height: 200px;
+
+    margin: 110px auto 0px auto;
+
+    border-radius: 7px;
+    border-style: groove;
+    border-color: #4e4b4b;
+
+    background: #4e4b4b;
+}
+
+.time_left {
+    margin: 25px 0px 0px 0px;
+
+    list-style-type: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.data_days, .data_hours, .data_minutes, .data_seconds {
+    display: inline;
+}
+.data_days {
+    padding: 0px 0px 0px 65px;
+}
+
+.data_hours {
+    padding: 0px 0px 0px 75px;
+}
+
+.data_minutes {
+    padding: 0px 0px 0px 62px;
+}
+
+.data_seconds {
+    padding: 0px 0px 0px 53px;
+}
+
+.watches {
+    height: 100px;
+
+    margin: 15px;
+
+    border: groove #4e4b4b;
+    border-radius: 7px;
+}
+
+.days, .hours, .minutes, .seconds {
+    display: inline-block;
+}
+
+.window {
+    display: inline-block;
+
+    width: 45px;
+    height: 70px;
+
+    border: groove #0e4cf5;
+    border-radius: 7px;
+
+    font: 60px "Times New Roman", serif;
+    color: #fff;
+}
+.days {
+    margin: 11px 0px 0px 55px;
+}
+
+.hours, .minutes, .seconds {
+    margin: 11px 0px 0px 18px;
+}
+
+.text {
+    width: inherit;
+
+    margin: 0;
+
+    text-align: center;
+}
